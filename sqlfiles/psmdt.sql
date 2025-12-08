@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS `mdt_data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `cid` VARCHAR(20) DEFAULT NULL,
+  `cid` VARCHAR(20) NOT NULL,
   `information` MEDIUMTEXT DEFAULT NULL,
   `tags` TEXT NOT NULL,
   `gallery` TEXT NOT NULL,
