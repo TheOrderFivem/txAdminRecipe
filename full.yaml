@@ -382,14 +382,8 @@ tasks:
   - action: remove_path
     path: ./resources/[ox]/ox_inventory/web/images/gimp
 
-  - action: download_github
-    dest: ./resources/[addon]/rpemotes-reborn
-    ref: master
-    src: https://github.com/alberttheprince/rpemotes-reborn
-
   - action: waste_time # prevent github throttling
     seconds: 4
-
 
   - action: download_github
     dest: ./resources/[addon]/mrc-storage
